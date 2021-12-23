@@ -1,4 +1,4 @@
-r$('document').ready(function(){	
+$('document').ready(function(){	
 	$('#page').hide();
 	$.getJSON("https://www.reddit.com/r/earthporn/top.json?sort=top&t=all&limit=100",function(json){
 		var rand=Math.floor(Math.random() * 100);
