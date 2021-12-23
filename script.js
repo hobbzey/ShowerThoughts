@@ -23,8 +23,8 @@ $('document').ready(function(){
    			$('#page').fadeIn("slow");
 		});	
 	});
-	$.getJSON("https://www.reddit.com/r/showerthoughts/top.json?sort=top&t=all&limit=200",function(json){
-		var rand=Math.floor(Math.random() * 200);
+	$.getJSON("https://www.reddit.com/r/showerthoughts/top.json?sort=top&t=all&limit=100",function(json){
+		var rand=Math.floor(Math.random() * 100);
 		var post=json.data.children[rand].data;
 		var quote=post.title;
 		var author=post.author;
