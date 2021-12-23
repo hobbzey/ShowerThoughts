@@ -41,9 +41,9 @@
 	position:absolute;
 	bottom:0px;
 	font-family:Arial;
-	font-size:12px;
+	font-size:10px;
 	padding-top: -20px;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.1);
 }
 #l{
 	left:0px;
